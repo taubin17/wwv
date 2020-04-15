@@ -1,0 +1,1 @@
+cmd_/home/pi/wwv/ece331-s20-wwv-student-master/wwv.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/wwv/ece331-s20-wwv-student-master/wwv.ko /home/pi/wwv/ece331-s20-wwv-student-master/wwv.o /home/pi/wwv/ece331-s20-wwv-student-master/wwv.mod.o ;  true
